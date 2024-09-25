@@ -1,0 +1,8 @@
+@import "../../global.css";
+
+main {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: var(--main-color-darker);
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.4",
+    "svelte-spa-router": "^4.0.1"
+  }
+}
