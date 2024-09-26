@@ -17,8 +17,10 @@
   main {
     padding: 0px;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0px;
+    overflow: hidden;
+    position: relative;
   }
   .main {
     padding: 0px;

@@ -7,7 +7,7 @@
     display: flex;
     width: fit-content;
     background-color: var(--main-color-darker);
-    border-right: 4px solid var(--main-color-light);
+    border-right: 2px solid var(--main-color-dark);
 
     #anchors-wrapper {
         display: flex;
@@ -16,12 +16,21 @@
         margin: 50px 0px;
 
         .anchor-nav {
-            font-size: var(--text-size-s);
+            font-size: var(--text-size-xs);
             color: var(--main-fore-color);
             padding: 12px 40px;
             transition: all 0.2s ease;
             border-top: 1px solid var(--main-color-dark);
             border-bottom: 1px solid var(--main-color-dark);
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            img {
+                height: 20px;
+                margin: auto;
+                width: 20px;
+            }
         }
 
         .anchor-nav:hover {

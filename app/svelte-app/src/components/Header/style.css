@@ -3,18 +3,29 @@
 #header-component {
     width: 100%;
     height: fit-content;
-    background-color: rgb(241, 241, 241);
+    background-color: var(--main-color-darkest);
     margin: 0px;
     padding: 0px;
+    border-bottom: 2px solid var(--main-color-dark);
+    border-top: 2px solid var(--main-color-dark);
 
     .logo-wrapper {
         font-size: 0.8rem;
         margin: 0;
-        padding: 14px 50px;
+        padding: 6px 50px;
 
         h1 {
-            line-height: 1.6rem;
+            line-height: var(--text-size-l);
+            font-size: var(--text-size-m);
             margin: 0;
+            background-color: var(--main-color-darker);
+            color: var(--main-fore-color);
+            width: fit-content;
+            padding: 10px;
+            border-radius: 5px;        
+            border-left: 2px solid var(--accent-color-b);
+            border-right: 2px solid var(--accent-color-a);
+            
         }
     }
 }

@@ -63,13 +63,26 @@
 <main>
   <section>
     <h1>Greetings</h1>
+    <p>Hey there! Welcome to the dashboard, you can view your data here.</p>
   </section>
-  <!-- <section class="data">
-    <h1>Data Section</h1>
-    <Pie
-    {data}
-    height={80}
-    options={{ maintainAspectRatio: true }}
-    />   
-  </section> -->
-</main>
+  <section class="data">
+    <h1>Graph</h1>
+ 
+  </section>
+  <section class="data">
+    <h1>Line</h1>
+ 
+  </section>
+  <section class="data">
+    <h1>Pie</h1>
+ 
+  </section>
+  <section class="data">
+    <h1>Donut</h1>
+  
+  </section>
+  <div class="spacer">
+    <hr>
+    <p>@denzeysenpai</p>
+  </div>
+</main> 

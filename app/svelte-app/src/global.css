@@ -1,12 +1,19 @@
 :root {
-    --main-color-dark: #2d3436;
-    --main-color-darker: #1f2324;
-    --main-color-light: #636e72;
-    --main-fore-color: #dfe6e9;
-    --accent-color-a: #00cec9;
+    --main-color-dark: #34313f;
+    --main-color-darker: #10101f;
+    --main-color-darkest: #060612;
+    --main-color-light: #accfda;
+    --main-fore-color: #e0e0e0;
+    --accent-color-a: #308a9c;
     --accent-color-b: #fdcb6e;
     --text-size-m: 1.08rem;
     --text-size-s: 0.9rem;
+    --text-size-xs: 0.78rem;
+    --text-size-xxs: 0.68rem;
     --text-size-l: 1.15rem;
     --text-size-xl: 2rem;
+    --background: #10101f;
+    --background-image: linear-gradient(#34313f46 .1em, transparent .1em), linear-gradient(90deg, #34313f46 .1em, transparent .1em);
+    --background-size: 1.5em 1.5em;
+    --section-card-background-color: linear-gradient(to left,#060612,#03030b);
 }

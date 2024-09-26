@@ -5,6 +5,6 @@
 
 <header id="header-component">
     <div class="logo-wrapper">
-        <h1>PaySlip</h1>
+        <h1>PS</h1>
     </div>
 </header>
